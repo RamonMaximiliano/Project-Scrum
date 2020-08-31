@@ -1,0 +1,257 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+/*font-family: 'Sriracha', cursive;*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+/*font-family: 'Playfair Display SC', serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe&display=swap');
+/*font-family: 'Mr Dafoe', cursive;*/
+
+
+@font-face {
+    font-family: 'fontelocal';
+    src: url("Fonts/Gelasio-Medium.ttf");
+}
+
+
+/* 
+Se não tiver o ponto e barra ( ./ ) antes do path da foto, a mesma não será mostrada no browser sem o live server ativado ("./imagens/city/picture1.jpeg").
+As vezes dependendo a pasta da foto são necessários dois pontos para ela aparecer(background: url("../IMAGENS/radio-tv.png").
+A princípio, cada ponto significa uma pasta.
+*/
+
+
+ul#myalbum {
+    width:90%;
+    margin:0 auto;
+    padding: 50px;
+    overflow:hidden;
+    list-style: none;
+    }
+
+ul#myalbum li {
+    float: left;
+    width:200px;
+    height:200px;
+    margin:10px;
+    border:5px solid white;
+    background-color:white;
+    box-shadow:1px 1px 3px rgba(0,0,0,.4);
+    transition: all .2s ease-in;
+}    
+
+ul#myalbum li span {
+    opacity: 0;
+    color: white;
+    text-shadow:1px 1px 1px black;
+    background-color:rgba(0,0,0,.3);
+    font-size:9pt;
+    line-height: 370px;
+    padding:5px;
+}
+
+ul#myalbum li:hover {
+    transform:scale(1.5);
+}
+
+ul#myalbum li:hover span{
+    opacity: 1;
+}
+
+ul#myalbum li#picture1 {
+    background: url("./imagens/city/picture1.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture1:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture2 {
+    background: url("./imagens/city/picture2.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture2:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+
+ul#myalbum li#picture3 {
+    background: url("./imagens/city/picture3.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture3:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture4 {
+    background: url("./imagens/city/picture4.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture4:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture5 {
+    background: url("./imagens/city/picture5.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture5:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture6 {
+    background: url("./imagens/city/picture6.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture6:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture7 {
+    background: url("./imagens/city/picture7.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture7:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture8 {
+    background: url("./imagens/city/picture8.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture8:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+
+ul#myalbum li#picture9 {
+    background: url("./imagens/city/picture9.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture9:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture10 {
+    background: url("./imagens/city/picture10.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture10:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture11 {
+    background: url("./imagens/city/picture11.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture11:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+
+ul#myalbum li#picture12 {
+    background: url("./imagens/city/picture12.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture12:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture13 {
+    background: url("./imagens/city/picture13.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture13:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture14 {
+    background: url("./imagens/city/picture14.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture14:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture15 {
+    background: url("./imagens/city/picture15.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture15:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}
+
+ul#myalbum li#picture16 {
+    background: url("./imagens/city/picture16.jpeg");
+    background-position: 50% 50%;
+    background-size:150% 150%;
+    background-color: white;
+}
+
+ul#myalbum li#picture16:hover {
+    background-position:0px 0px;
+    background-size:100% 100%;
+}

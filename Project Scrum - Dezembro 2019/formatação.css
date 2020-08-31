@@ -1,0 +1,803 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+/*font-family: 'Sriracha', cursive;*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+/*font-family: 'Playfair Display SC', serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe&display=swap');
+/*font-family: 'Mr Dafoe', cursive;*/
+
+
+@font-face {
+    font-family: 'fontelocal';
+    src: url("Fonts/Gelasio-Medium.ttf");
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+/*  CSS Tutorial 1 - Always Position Footer at Bottom of Website 
+Para que o footer sempre esteja embaixo sem passar por cima do resto do conteudo são necessários os sets abaixo:
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+Tem que ter uma Div que faça um wrapper em todo o código dentro do Body.
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.main-fotter {
+     background-color: #bf6bd1;   
+     height: 60px;
+     width: 100%;
+     position: absolute;
+     left: 0px;
+     bottom: 0px;
+*/
+
+.lista li {
+    display: inline-block;
+    margin-bottom: 10px;
+ }
+
+.lista a {
+        text-decoration: none;
+        margin: 10px;
+        padding: 5px;
+        font-size: 20px; 
+        font-weight: bold;
+        color: white;
+ }
+
+.lista a:hover {
+     background-color: #3f57c0b2;
+    }
+
+.divimagens a {
+    text-decoration: none;
+    }
+    
+.prinflex {
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    
+.prinflex a {
+    margin-left: 10px;
+    margin-right:40px;
+    margin-bottom:10px;
+}
+
+.prinflex table {
+max-width: 700px;
+}
+
+.divimagens {
+    justify-content:center;
+    flex-wrap: wrap;
+    display:block;
+    align-items: center;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+.divimagens a {
+    margin-left:auto;
+    margin-right:auto;
+    margin:50px;
+    box-sizing: border-box;
+}
+
+.divimagens2 a {
+    margin-left:auto;
+    margin-right:auto;
+    margin:50px;
+    box-sizing: border-box;
+}
+
+.divimagens2 {
+    justify-content:center;
+    flex-wrap: wrap;
+    display:block;
+    align-items: center;
+    text-align:center;
+    box-sizing: border-box;
+    margin-bottom:50px;
+}
+
+.Javatab {
+    justify-content:center;
+    flex-wrap: wrap;
+    display:block;
+    align-items: center;
+    text-align:center;
+    box-sizing: border-box;
+    margin-bottom:50px;
+}
+
+.Javatab img {
+    width: 450px;
+    margin-left:auto;
+    margin-right:auto;
+    margin:50px;
+    box-sizing: border-box;
+}
+
+.textform {
+    text-align:center;
+}
+
+/* Footer and header Home*/
+.main-footer {
+     width: 100%;
+     height: 80px;
+     position: absolute;
+     left: 0px;
+     bottom: 0px;
+     padding: 5px;
+     background-image: url("imagens/future3.gif");
+     background-repeat: no-repeat;
+     background-size: 100%; 
+     display:flex;
+     flex-direction: row;
+     align-items: center;
+     }
+
+.main-footerPictures {
+    width: 100%;
+    height: 80px;
+    clear:all;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 5px;
+    background-image: url("imagens/tech13.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+.main-footerPictures  a {
+    margin-right: 5px;
+    margin-left:15px;
+    Align-items:center;  }
+       
+.main-footerPictures  p {
+    margin-left: auto; 
+    margin-right: 5px; }
+
+.main-footer a {
+     margin-right: 5px;
+     margin-left:15px;
+     Align-items:center;  }
+    
+.main-footer p {
+    margin-left: auto; 
+    margin-right: 5px; }
+
+.mainheader { 
+    background-image: url("imagens/future3.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 10px;
+}
+
+.mainheaderPictures { 
+    background-image: url("imagens/tech13.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 10px;}    
+/* Footer and header Home*/
+
+/* Footer and header Daily*/
+.main-fotterDaily {
+    clear: both;
+    background-image: url("imagens/tech3.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;     
+    width: 100%;
+    height: 80px;
+    /*position: absolute;*/
+    left: 0px;
+    bottom: 0px;
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+.main-fotterDaily a {
+    margin-right: 5px;
+    margin-left:15px;
+    Align-items:center;
+   }
+   
+   .main-fotterDaily p {
+margin-left: auto; 
+margin-right: 5px; }
+
+.mainheaderDaily  { 
+    background-image: url("imagens/tech3.gif");
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    padding: 10px;
+}
+
+.listaDaily a:hover {
+    background-color: #5664e09c;
+   }
+.listaDaily li {
+   display: inline-block;
+   margin-bottom: 10px;
+ }
+.listaDaily a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px; 
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+ }
+/* Footer and header Daily*/
+
+/* Footer and header Guiding*/
+
+.main-fotterGuiding {
+    background-image: url("imagens/tech6.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+.mainheaderGuiding { 
+    background-image: url("imagens/tech6.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 10px;
+}
+
+.listaGuiding a:hover {
+    background-color: #5a88ec85;
+   }
+.listaGuiding li {
+   display: inline-block;
+   margin-bottom: 10px;
+ }
+.listaGuiding a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px; 
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+/* Footer and header Guiding*/
+
+.headertitle {margin-left: 50px;
+        color: white;
+}
+
+/* Footer and header Sprint*/
+.main-fotterSprint {
+    clear: both;
+    background-image: url("imagens/tech8.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;     width: 100%;
+    height: 80px;
+    /*position: absolute;*/
+    left: 0px;
+    bottom: 0px;
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+.mainheaderSprint { 
+    background-image: url("imagens/tech8.gif");
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    padding: 10px;
+}
+.listaSprint a:hover {
+    background-color: #5d82e99a;
+}
+.listaSprint li {
+   display: inline-block;
+   margin-bottom: 10px;
+ }
+.listaSprint a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px; 
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+/* Footer and header Sprint*/
+
+/* Footer and header Team*/
+
+.mainheaderTeam { 
+    background-image: url("imagens/tech10.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 10px;
+}
+
+.listaTeam a:hover {
+    background-color: #2b3ac78f;
+   }
+.listaTeam li {
+   display: inline-block;
+   margin-bottom: 10px;
+ }
+.listaTeam a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px; 
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+/* Footer and header Team*/
+
+/* Footer and header Form*/
+
+.mainheaderForm { 
+    background-image: url("imagens/tech12.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 10px;
+}
+
+.listaForm a:hover {
+    background-color: #4e66d3af;
+   }
+
+.listaForm li {
+   display: inline-block;
+   margin-bottom: 10px;
+ }
+.listaForm a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px; 
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+/* Footer and header Form*/
+
+.formfield {
+max-width: 60%;
+margin-left: 15px;
+}
+
+.figure {
+    position:relative;
+    border: 10px solid rgb(58, 107, 212);
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px black;
+    max-width: 300px;
+    margin-left:20%;
+
+}
+
+.figure img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.figure figcaption {
+    position: absolute;
+    top: 0px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+}
+
+.paragrafo { text-indent: 20px;
+    margin-top: 5px;
+    font-family: "fontelocal";
+}
+
+.paragrafo2 { text-indent: 20px;
+    font-family: "fontelocal";
+}
+
+.texttitle {text-indent: 20px; 
+        font-family: Arial;
+        font-size: 18pt;
+        text-shadow: 1px 1px 1px black;    
+        margin-bottom: 10px
+}
+
+.conjunto {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+}
+
+.main-fotterTeam {
+    clear: both;
+    background-image: url("imagens/tech10.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    height: 80px;
+    width: 100%;
+    /*position: absolute;*/
+    left: 0px;
+    bottom: 0px;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items: center; }
+
+.main-fotterTeam a {
+    margin-right: 5px;
+    margin-left:15px;
+    Align-items:center; }
+   
+.main-fotterTeam p {
+margin-left: auto; 
+margin-right: 5px; }
+
+.main-fotterForm {
+    background-image: url("imagens/tech12.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;     width: 100%;
+    height: 80px;
+    /*position: absolute;*/
+    left: 0px;
+    bottom: 0px;
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center; }
+
+.main-fotterForm a {
+    margin-right: 5px;
+    margin-left:15px;
+    Align-items:center; }
+   
+.main-fotterForm p {
+margin-left: auto; 
+margin-right: 5px; }
+
+.main-fotterSprint a {
+    margin-right: 5px;
+    margin-left:15px;
+    Align-items:center;
+   }
+   
+.main-fotterSprint p {
+margin-left: auto; 
+margin-right: 5px; }
+
+.main-fotterGuiding a {
+    margin-right: 5px;
+    margin-left:15px;
+    Align-items:center;
+   }
+   
+.main-fotterGuiding p {
+margin-left: auto; 
+margin-right: 5px; }
+
+.mainbody {
+  max-width: 1400px ;
+  margin-left: 20px;
+  padding-left: 50px;
+}
+
+.googlefonts1 {
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    text-align: left;
+    padding-left:5%;
+}
+
+.googlefonts2 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    padding-left:5%;
+}
+
+.sectionclass {
+    display: block;
+    width: 60%;
+    float: left;
+    border-right: 5px solid #000008; 
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+
+.asideclass {
+    display: block;
+    width: 40%;
+    float: right;
+    padding-left:10px;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+/*media se aplica quando a exceção for cumprida, a exceção é o que esta dentro do parentesis.*/
+
+@media (max-width: 1000px){
+.sectionclass {
+    float:none;
+    width:100%;
+    border-right:none;
+}
+.asideclass {
+    float:none;
+    width:100%;}
+}
+
+
+
+
+.mainbody2 {
+    width: 90%;
+    margin: auto;
+}
+
+.signature {
+    color: white;
+    float: right;
+    font-size: 30px;
+    padding-right: 90px;
+    font-family: 'Mr Dafoe', cursive;
+}
+
+/*Table configuration*/
+
+.table { 
+    border: 5px solid rgb(106, 69, 192);
+    border-spacing: 1px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#colspan1 {
+    text-align: center;
+    border: 2px solid rgb(106, 69, 192);
+    border-spacing: 0px;
+    font-weight: bolder;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.table th { 
+    border: 2px solid  rgb(106, 69, 192);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.table td { 
+    border: 2px solid rgb(192, 85, 235);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.image1:hover {
+    opacity: 0.6;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.imagescrum {
+ width:680px;
+ padding-left:20px;
+ float: left;
+ flex-wrap: wrap;
+ box-sizing: border-box;
+}
+
+.imagescrum2 {
+    display:block;
+    width: 40%;
+    float: left;
+    margin-left:10%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.image2:hover {
+    opacity: 0.6;
+    border: 2px solid black;
+    border-radius: 10px;
+ }
+ 
+ .image2 {
+ width:500px;
+ text-align: center;    
+ float: left;
+ display:flex;
+ flex-wrap: wrap;
+ margin-top:30px;
+ margin-right:auto;
+ margin-left:60px;
+ box-sizing: border-box;
+ margin-bottom:30px;
+ }
+
+ #myframe {
+    float: left;
+    flex-wrap: wrap;
+    width:600px;
+    border:none;
+    padding-top:0;
+    height: 240px;
+    margin:40px;
+    box-sizing: border-box;
+    margin-bottom:30px;
+ }
+  
+ iframe#myframe::-webkit-scrollbar {
+    display:none;
+ }
+
+  .myframe2 {
+    width: 50%;
+    float: right;
+    flex-wrap: wrap;
+    display:flex;
+    padding-left:10px;
+    box-sizing: border-box;
+}
+
+
+
+
+#name, #lasttname, #e-mail, #cityfield, #password, #level {
+    width:100%
+}
+
+input:hover, .textarea2:hover {
+    background-color: rgb(235, 236, 240);
+}
+
+legend {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#textarea2  {
+    height: 70px;
+    width:100%
+}
+
+.formfield {
+    margin:auto;
+}
+
+.formbuttons {
+   text-align:center;
+}
+
+.picturescity {
+    width:300px;
+    height:300px;
+    Display:block;
+    float:left;
+    padding:5px;
+    align-items: center;
+    }
+
+.min{
+    justify-content: space-between;
+    word-spacing: 100%;
+}
+
+
+
+
+
+#video2 {
+    width:450px;
+    height:350px;
+    background: url("Imagens/oldtvset.png") no-repeat;
+    background-size: 100%;
+    margin-left:20%;
+    float:left;
+    margin-bottom:80px;
+    box-sizing: border-box;
+
+}
+
+.video1{
+    display:block;
+    position:relative;
+    border-radius: 20px;;
+    top:25px;
+    left:22px;
+    width:320px;
+    height:230px;
+    box-sizing: border-box;
+
+}
+
+#audio2 {
+    width:480px;
+    height:350px;
+    background: url("Imagens/radio.jpeg") no-repeat;
+    background-size: 100%;
+    margin-right:20%;
+    float:right;
+    margin-bottom:80px;
+    box-sizing: border-box;
+
+}
+
+.audio1 {
+    width:300px;
+    display:block;
+    border: 10px black solid;
+    border-radius: 50px;
+    position:relative;
+    top:185px;
+    left:90px;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<html lang="pt-br">
+<title>Form</title>
+<link rel="stylesheet" href="formatação.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="wrapper" > 
+
+<header class="mainheaderForm">
+<h1 class="headertitle">Agile Methodology</h1>
+<div>
+<nav class="listaForm">
+  <ul>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="DailyScrum.html">Daily scrum</a></li>
+    <li><a href="Guidingprinciples.html">Guiding principles</a></li>
+    <li><a href="Sprint.html">Sprint</a></li>
+    <li><a href="ScrumTeam.html">Scrum Team</a></li>
+    <li><a href="Pictures.html">Pictures</a></li>
+    <li><a href="Form.html">Form</a></li>
+  </ul>
+</nav>
+</div>
+</header>  
+<div class="mainbody2">
+<div class="textform"><h2 class="texttitle">This is a form test</h2></div>
+  <span class="format">
+      <form target="_self" method="get" title="My first form" class="myform" oninput="calcBonus();">
+        <fieldset class="formfield">
+          <legend>Basic Info</legend>
+            </br>
+            <label for="name">First Name:</label>
+            </br>
+            <input type="text" name="firstname" id="name">
+            </br>
+            </br>
+            <label for="lasttname">Last Name:</label>
+            </br>
+            <input type="text" name="lasttname" id="lasttname">
+            </br>
+            </br>
+            Sex:
+            </br>
+            <input type="radio" name="gender" value="Male" checked id="male">
+            <label for="male">Male</label>
+            </br>
+            <input type="radio" name="gender" value="Female" id="female">
+            <label for="female">Female</label>
+            </br>
+            </br>
+            Favorite Page 
+            </br>
+            <select name="Methods">
+              <optgroup label="Agile"></optgroup>
+                <option value="Scrum">Scrum</option>  
+                <option value="Principles">Principles</option>  
+                <option value="Sprint">Sprint</option>  
+                <option value="Team">Team</option>  
+              </optgroup>
+              <optgroup label="Social"></optgroup>
+                <option value="Facebook">Facebook</option>  
+                <option value="Instagran">Instagran</option>  
+                <option value="YouTube">YouTube</option>  
+              </optgroup>
+            </select>
+            </br>
+            </br>
+            <label for="e-mail">E-mail</label>
+            </br>
+            <input type="e-mail" name="e-mail" id="e-mail" placeholder="E-mail address">
+            </br>
+            </br>
+            <label for="textarea">Comments:</label>
+            </br>
+            <textarea name="message" placeholder="Write here" id="textarea2" class="textarea2"></textarea>
+            </br>
+            </br>
+            <label for="password">Password:</label>
+            </br>
+            <input type="password" name="password" required id="password" placeholder="6 characters">
+            </br>
+            </br>
+            <label for="birthday">Birth Date:</label>
+            </br>
+            <input type="date" name="date" required id="birthday"> 
+            </br>
+            </br>
+            <label for="city">City:</label>
+            </br>
+            <input type="text" name="city" required id="cityfield" list="city"> 
+            </br>
+              <datalist id="city">
+                <option value="New York"></option>  
+                <option value="Washington"></option>  
+                <option value="Los Angeles"></option>  
+              </datalist>
+            </br>
+            <label for="level">Level:</label>
+            </br>
+            <p class="min">Min Max</p>
+            <input type="range" name="level" id="level" min="0" max="10" step="5">
+            <p>Max</p>
+            </br>
+            <label for="color">Color:</label>
+            </br>
+            <input type="color" id="color" value="preto">
+            </br>
+            </br>
+            <label for="webscore">Website Score</label> 
+            </br>
+            <input type="number" name="webscore" id="webscore" min="0" max="10" placeholder="5"> 
+            </br>
+            </br>
+            <label for="bonus">Bonus points:</label> 
+            </br>
+            <input type="text" name="bonus" placeholder="Bonus to the website" id="bonus" readonly> 
+            </br>
+            </br>
+            </br>
+            </br>
+            <div class="formbuttons">
+            <input type="submit" value="Submit" id="submit"> 
+            <input type="reset"id="reset"> 
+            </div>
+            </br>
+        </fieldset>
+      </form>
+  </div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</div>
+  <footer class="main-fotterForm">
+      <a href="https://www.facebook.com/" target="_blank" title="Visitar Facebook"><img src="imagens/icons8-facebook-circled-48.png" width="55"></a>
+      <a href="https://www.instagran.com/" target="_blank" title="Visitar Instagran"><img src="imagens/instagran.png" width="50"></a>
+      <a href="https://www.youtube.com/" target="_blank" title="Visitar Youtube"><img src="imagens/youtubefinal.png" width="65"></a>
+      <p class="signature">Ramon</p>
+  </footer>
+</div>
+<script type="text/javascript" src="Scripts.js" ></script>  
+</body>
+</html>
